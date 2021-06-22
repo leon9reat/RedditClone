@@ -63,5 +63,5 @@ class RedditPagingSource(private val redditService: RedditService) :
         }
     }
 
-    override val keyReuseSupported: Boolean = false
+    override val keyReuseSupported: Boolean = true
 }
